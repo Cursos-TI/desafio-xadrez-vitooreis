@@ -30,5 +30,26 @@ int main() {
         j++;
     } while (j <= 8);
 
+    
+    // Simulação do movimento do Cavalo
+    
+    printf("\nMovimento do Cavalo:\n");
+
+    // Variáveis para o movimento do Cavalo
+    int movimentosParaBaixo = 2;
+    int movimentosParaEsquerda = 1;
+
+    // Loop externo (obrigatoriamente for) para as duas casas para baixo
+    for (int k = 1; k <= movimentosParaBaixo; k++) {
+        printf("Baixo\n");
+
+        // Loop interno (escolha: while) para uma casa para a esquerda
+        int l = 1;
+        while (l <= movimentosParaEsquerda) {
+            printf("Esquerda\n");
+            l++;
+        }
+    }
+
     return 0;
 }
