@@ -7,16 +7,14 @@ Este projeto foi desenvolvido para simular os movimentos de diversas peças do x
 # Objetivo do Desafio
 O objetivo do desafio foi testar a habilidade de simular movimentos de peças de xadrez utilizando diferentes técnicas de programação, incluindo:
 
-Estruturas de repetição (for, while, do-while)
-
-Recursão
-
-Loops aninhados
+ - Estruturas de repetição (for, while, do-while)
+ - Recursão
+ - Loops aninhados
 
 A aplicação foi dividida em três níveis, cada um com requisitos específicos, desafiando a complexidade das soluções implementadas.
 
 # Níveis do Desafio
-🏅 Nível Novato
+ Nível Novato
 No Nível Novato, o desafio consistia em mover as peças do xadrez Torre, Bispo e Rainha utilizando loops simples (for, while, do-while). A movimentação das peças era feita de forma direta, com cada peça seguindo suas regras tradicionais de movimento no tabuleiro:
 
  - Torre: 5 casas para a direita.
@@ -34,9 +32,26 @@ O Nível Aventureiro trouxe a movimentação do Cavalo, uma peça que se move em
 Principais Funcionalidades:
  - Cavalo se move com loops aninhados, utilizando duas estruturas de repetição para simular o movimento "L" (2 casas para baixo e 1 para a esquerda).
 
-🥇 Nível Mestre
+# Nível Mestre
 No Nível Mestre, o código foi aprimorado para utilizar recursão nas peças Torre, Bispo e Rainha. A movimentação do Cavalo foi aprimorada com loops aninhados complexos, com o uso de múltiplas variáveis e condições.
 
 Principais Funcionalidades:
  - Recursão utilizada para simular os movimentos da Torre, Bispo e Rainha.
  - Loops aninhados complexos para a movimentação do Cavalo (usando continue e break).
+
+# Como Executar o Projeto
+Pré-requisitos
+ - Compilador C (recomendado o GCC)
+
+Passos para Rodar:
+ 1. Clone este repositório para seu ambiente local.
+ 2. Abra o terminal na pasta do projeto.
+ 3. Compile o código utilizando o comando:  
+```
+gcc xadrez.c -o xadrez
+```
+
+ 4. Execute o programa:
+```
+./xadrez
+```
